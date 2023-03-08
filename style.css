@@ -1,0 +1,93 @@
+@font-face {
+    font-family:Raleway-Bold;
+    src: url(../fonts/raleway/raleway-bold.ttf);
+}
+@font-face {
+    font-family:raleway-Light;
+    src: url(../fonts/raleway/raleway-Light.ttf);
+}
+
+
+
+
+/* common start*/
+body{
+    margin: 0;
+    font-family:'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common end */
+
+/* header start */
+header{
+    padding: 30px 0px;
+   
+    /* border: 1px solid red; */
+}
+.container{
+    margin: 0px auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    
+}
+.logo{
+    width: 11%;
+    /* border: 1px solid red; */
+    float: left;
+    margin-top: 4px;
+}
+.logo a{
+    display: block;
+   
+}
+.logo a img{
+    width: 100%;
+}
+.meno{
+    width: 60%;
+    /* border: 1px solid rgb(0, 255, 4); */
+    float: right;
+
+}
+.meno ul{
+    float: right;
+    margin: 0;
+}
+.meno ul li{
+    list-style: none;
+    float: left;
+}
+.meno ul li a{
+    display: inline-block;
+    padding: 10px 50px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+     
+}
+.meno ul li:last-child a{
+    padding-right: 0px;
+}
+
+/* header end */
+
+/* start banner */
+.banner{
+    padding: 30px 0px; 
+
+}
+.container_2{
+    width: 90%;
+    margin:0px auto;
+}
+.background_img{
+    display: block;
+}
+.background_img img{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+/* end banner */
