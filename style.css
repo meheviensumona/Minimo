@@ -10,7 +10,7 @@
 
 
 
-/* common start*/
+/* ---------------------------common start--------------------------------*/
 body{
     margin: 0;
     font-family:'Playfair Display', serif;
@@ -18,11 +18,11 @@ body{
     font-weight: 400;
     color: #626262;
 }
-/* common end */
+/*--------------------------common end----------------------------------- */
 
-/* header start */
+/*---------------------------- header start -------------------------------- */
 header{
-    padding: 30px 0px;
+    padding: 35px 0px;
    
     /* border: 1px solid red; */
 }
@@ -53,8 +53,9 @@ header{
 
 }
 .meno ul{
-    float: right;
     margin: 0;
+    float: right;
+  
 }
 .meno ul li{
     list-style: none;
@@ -62,32 +63,213 @@ header{
 }
 .meno ul li a{
     display: inline-block;
-    padding: 10px 50px;
+    margin: 0px 50px;
+    padding: 5px 2px;
     color: #626262;
     text-transform: uppercase;
     text-decoration: none;
-     
+    transition: .33s;
+    border-bottom:transparent;     
 }
 .meno ul li:last-child a{
-    padding-right: 0px;
+    margin-right: 0px;
+}
+.meno ul li a:hover{
+    color: #626262;
+    border-bottom: 1px solid red;
 }
 
-/* header end */
+/*----------------------- header end ------------------------*/
 
-/* start banner */
-.banner{
+/* -----------------------------start banner-------------------- */
+.banner {
     padding: 30px 0px; 
+}
+.background_img {
 
+}
+.background_img img {
+    width: 100%;
+/* border: 1px solid red; */
+}
+/*------------------------------ end banner---------------------- */
+
+
+/*------------------------- message start --------------------------*/
+.message{
+    padding: 80px 0px;
 }
 .container_2{
-    width: 90%;
-    margin:0px auto;
+    margin: 0px auto;
+    width: 80%;
+    overflow: hidden;
+
 }
-.background_img{
-    display: block;
+.light{
+    margin: 0px;
+    font-family: 'ubounto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:#b4ad9e ;
+    text-transform: uppercase;
 }
-.background_img img{
-    width: 100%;
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px 30px;
+}
+.text{
+    margin: 0px;
+    line-height: 24px;
+
+}
+.mt_40{
+    margin-top:40px;
+}
+/*--------------------- message end-------------------------- */
+
+/*---------------------about start--------------------------- */
+.about {
+    padding: 80px 0px;
+}
+.a_l {
+    width: 47%;
     /* border: 1px solid red; */
+    float: left;
 }
-/* end banner */
+.a_l_img {
+
+}
+.a_l_img img {   
+    width: 100%;
+}
+.a_r {
+    width: 47%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.a_r_img {}
+.a_r_img img {
+    width: 100%;
+}
+.light_1 {
+    margin-top: 30px;
+}
+/*----------------------------- about end------------------------------ */
+/* ----------------------------- sign up start ---------------------------- */
+.container-4{
+    width:100%;
+    background-color:#f0f0f0 ;
+    text-align: center;
+    padding: 70px 0px;
+
+}
+.s_h1{
+    padding-bottom: 80px;
+    
+
+}
+.s_p{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    display: inline;
+
+}
+/* ---------------------------- sign up end ------------------------ */
+
+
+/* sign start */
+.sign {
+    width: 100%;
+    height: 260px;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+   
+   
+}
+.text {
+
+}
+.text a {
+    text-decoration: none;
+    
+}
+.text a h1 {
+    font-family: 'Playfair Display', serif;
+    padding: 50px 0 50px 0;
+    color: #333333;
+}
+.em_box {
+    margin: 0 auto;
+    width: 25%;
+    padding-bottom: 5px;
+    border-bottom: 0.01px solid black;
+}
+.in_1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    padding-right: 15px;
+    border-style: none;
+    background-color:#f0f0f0 ;
+}
+.sub {
+    color: black;
+    padding-left: 100px;
+}
+/* sign end */
+
+/* start load */
+
+.load{
+    margin: 200px 0px;
+}
+.container_6{
+    width: 15%;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+   
+}
+.input{
+
+    margin: 0px;
+    padding: 25px;
+    font-size:30px;
+    border: 1px solid rgb(3, 4, 4);
+   text-align: center;
+
+    
+   
+}
+/* end load */
+
+/* start privacy */
+.privacy{
+    background-color:#f0f0f0 ;
+}
+.container_7{
+    width: 80%;
+    padding:30px 0px 35px;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
+.p_l{
+    border: 1px solid rgb(0, 255, 119);
+    width: 50%;
+    float: left;
+}
+.p_r{
+   border: 1px solid gainsboro;
+   width: 40%; 
+   float: right;
+}
+.p_p{
+    color: black;
+   
+}
+.p_p span {
+    padding-left: 20px;
+    color: #000000;
+}
+/* end privacy */
