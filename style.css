@@ -212,14 +212,26 @@ header{
 
 }
 .p_l{
-    border: 1px solid rgb(0, 255, 119);
+    /* border: 1px solid rgb(0, 255, 119); */
     width: 50%;
     float: left;
 }
 .p_r{
-   border: 1px solid gainsboro;
+   /* border: 1px solid gainsboro; */
    width: 40%; 
    float: right;
+}
+.follow ul{
+    float: right;
+}
+.follow ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 40px;   
+}
+.follow ul li last-child a{
+    padding-right: 0px;
 }
 .p_p{
     color: black;
