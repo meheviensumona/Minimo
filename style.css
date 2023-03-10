@@ -177,48 +177,6 @@ header{
 }
 /* ---------------------------- sign up end ------------------------ */
 
-
-/* sign start */
-.sign {
-    width: 100%;
-    height: 260px;
-    background-color: #f0f0f0;
-    text-align: center;
-    
-   
-   
-}
-.text {
-
-}
-.text a {
-    text-decoration: none;
-    
-}
-.text a h1 {
-    font-family: 'Playfair Display', serif;
-    padding: 50px 0 50px 0;
-    color: #333333;
-}
-.em_box {
-    margin: 0 auto;
-    width: 25%;
-    padding-bottom: 5px;
-    border-bottom: 0.01px solid black;
-}
-.in_1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 300;
-    padding-right: 15px;
-    border-style: none;
-    background-color:#f0f0f0 ;
-}
-.sub {
-    color: black;
-    padding-left: 100px;
-}
-/* sign end */
-
 /* start load */
 .load{
     margin: 200px 0px;
