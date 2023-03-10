@@ -200,8 +200,8 @@ header{
 }
 /* end load */
 
-/* start privacy */
-.privacy{
+/* start footer */
+.footer{
     background-color:#f0f0f0 ;
 }
 .container_7{
@@ -241,4 +241,4 @@ header{
     padding-left: 20px;
     color: #000000;
 }
-/* end privacy */
+/* end footer */
